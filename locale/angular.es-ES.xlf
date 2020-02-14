@@ -368,7 +368,7 @@
       </trans-unit>
       <trans-unit id="f9fdeb0495dd96319d13df9d9536760d0a98d9b5" datatype="html">
         <source><x id="INTERPOLATION" equiv-text="{{ action.label }}"/></source>
-        <target state="new"><x id="INTERPOLATION" equiv-text="{{ action.label }}"/></target>
+        <target state="translated"><x id="INTERPOLATION" equiv-text="{{ action.label }}"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/buttons/action-dropdown.component.html</context>
           <context context-type="linenumber">22</context>
@@ -588,7 +588,7 @@
       </trans-unit>
       <trans-unit id="f73a82bb90c6c856cc0d2e3b2f5c109460074912" datatype="html">
         <source>{VAR_PLURAL, plural, =1 {1 view} other {<x id="INTERPOLATION" equiv-text="{{ video.views | myNumberFormatter }}"/> views} }</source>
-        <target state="new">{VAR_PLURAL, plural, =1 {1 view} other {<x id="INTERPOLATION" equiv-text="{{ video.views | myNumberFormatter }}"/> views} }</target>
+        <target state="translated">{VAR_PLURAL, plural, =1 {1 view} other {<x id="INTERPOLATION" equiv-text="{{ video.views | myNumberFormatter }}"/> views} }</target>
         <context-group purpose="location"><context context-type="sourcefile">src/app/shared/video/video-miniature.component.html</context><context context-type="linenumber">20</context></context-group>
       </trans-unit>
       <trans-unit id="4a806761798181e907e28ed1af053d466526800d">
@@ -1052,9 +1052,7 @@ Iniciar sesión</target>
       </trans-unit>
       <trans-unit id="d780b02074a6317126378e0365e1066c890a3570" datatype="html">
         <source>If you are looking for an account…</source>
-        <target state="new">
-      If you are looking for an account…
-    </target>
+        <target state="translated">Si estás buscando una cuenta…</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/login/login.component.html</context>
           <context context-type="linenumber">7</context>
@@ -1062,14 +1060,7 @@ Iniciar sesión</target>
       </trans-unit>
       <trans-unit id="79dacac459775e2cf163bce6c3f05ed814f82ba2" datatype="html">
         <source>Currently this instance doesn't allow for user registration, but you can find an instance that gives you the possibility to sign up for an account and upload your videos there. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Find yours among multiple instances at <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>https://joinpeertube.org/instances<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. </source>
-        <target state="new">
-      Currently this instance doesn't allow for user registration, but you can find an instance
-      that gives you the possibility to sign up for an account and upload your videos there.
-
-      <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-
-      Find yours among multiple instances at <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>https://joinpeertube.org/instances<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.
-    </target>
+        <target state="translated">Actualmente, esta instancia no admite el registro de nuevos usuarios, pero siempre puedes encontrar otra instancia que te proporcione la posibilidad de registrarte y subir tu contenido.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Encuentra la tuya entre todas las posibilidades en <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>https://joinpeertube.org/instances<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/login/login.component.html</context>
           <context context-type="linenumber">11</context>
@@ -1226,7 +1217,7 @@ Iniciar sesión</target>
       </trans-unit>
       <trans-unit id="3c2c6b17d0326ab344e194b17abbee201d58dbea" datatype="html">
         <source><x id="INTERPOLATION" equiv-text="{{ pagination.totalItems | myNumberFormatter }}"/> <x id="ICU" equiv-text="{pagination.totalItems, plural, =1 {...} other {...}}"/></source>
-        <target state="new"><x id="INTERPOLATION" equiv-text="{{ pagination.totalItems | myNumberFormatter }}"/> <x id="ICU" equiv-text="{pagination.totalItems, plural, =1 {...} other {...}}"/></target>
+        <target state="translated"><x id="INTERPOLATION" equiv-text="{{ pagination.totalItems | myNumberFormatter }}"/> <x id="ICU" equiv-text="{pagination.totalItems, plural, =1 {...} other {...}}"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/search/search.component.html</context>
           <context context-type="linenumber">5</context>
@@ -1517,7 +1508,7 @@ Iniciar sesión</target>
       </trans-unit>
       <trans-unit id="608d7164ed2d996dc827b17cd7b6f5915c617be4" datatype="html">
         <source>Public profile</source>
-        <target state="new">Public profile</target>
+        <target state="translated">Perfil público</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/menu/menu.component.html</context>
           <context context-type="linenumber">19</context>
@@ -1844,7 +1835,7 @@ Iniciar sesión</target>
       </trans-unit>
       <trans-unit id="75706466a5cffa6f6bf0d6c94a8345a001ce8cea" datatype="html">
         <source>Display all categories</source>
-        <target state="new">Display all categories</target>
+        <target state="translated">Mostrar todas las categorías</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/search/search-filters.component.html</context>
           <context context-type="linenumber">106</context>
@@ -1862,7 +1853,7 @@ Iniciar sesión</target>
       </trans-unit>
       <trans-unit id="e19d80c6277747a68f3da8cfe1318303d2b5c952" datatype="html">
         <source>Display all licenses</source>
-        <target state="new">Display all licenses</target>
+        <target state="translated">Mostrar todas las licencias</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/search/search-filters.component.html</context>
           <context context-type="linenumber">119</context>
@@ -1881,7 +1872,7 @@ Iniciar sesión</target>
       </trans-unit>
       <trans-unit id="dcc3173a99661496cd1f836283993cc3e6576b26" datatype="html">
         <source>Display all languages</source>
-        <target state="new">Display all languages</target>
+        <target state="translated">Mostrar todos los lenguajes</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/search/search-filters.component.html</context>
           <context context-type="linenumber">132</context>
